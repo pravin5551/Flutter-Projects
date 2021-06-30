@@ -75,5 +75,3 @@ class _CalcButtonState extends State<CalcButton> {
   }
 }
 
-
-//lol
