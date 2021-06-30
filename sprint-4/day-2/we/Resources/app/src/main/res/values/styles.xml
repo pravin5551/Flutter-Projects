@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CreatAcoountEdittextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/dp_14</item>
+        <item name="android:layout_marginStart">@dimen/dp_25</item>
+        <item name="android:layout_marginEnd">@dimen/dp_25</item>
+        <item name="android:layout_marginBottom">@dimen/dp_25</item>
+        <item name="background">@drawable/editext_rect_bg</item>
+
+    </style>
+
+    <style name="customeTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/dp_14</item>
+        <item name="android:layout_gravity">center</item>
+
+
+    </style>
+
+</resources>

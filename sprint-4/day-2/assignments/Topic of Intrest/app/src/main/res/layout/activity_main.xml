@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="@dimen/dp_50"
+        android:text="What topic do you love? "
+        android:drawableStart="@drawable/ic_previussymbolflight"
+        android:layout_centerHorizontal="true"
+        android:background="#0583EA"
+        android:textSize="@dimen/dp_25"
+         />
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_below="@+id/topic"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/box1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_weight="1"
+            android:text="Books"
+            android:textSize="@dimen/dp_25"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/dp_14"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:gravity="center"
+            android:background="@drawable/editext_rect_bg"
+            />
+
+        <TextView
+            android:id="@+id/box2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_weight="1"
+            android:text="Podcast"
+            android:textColor="@color/blue"
+            android:layout_marginStart="@dimen/dp_14"
+            android:background="@drawable/rect_bg"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:textSize="@dimen/dp_25"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_below="@+id/row1"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/box3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="News"
+            android:textSize="@dimen/dp_25"
+            android:background="@drawable/rect_bg"
+            android:textColor="@color/blue"
+            android:layout_marginStart="@dimen/dp_14"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/box4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_weight="1"
+            android:text="Business"
+            android:textColor="@color/blue"
+            android:layout_marginStart="@dimen/dp_14"
+            android:background="@drawable/rect_bg"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:textSize="@dimen/dp_25"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_below="@+id/row2"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/box5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Entertainment"
+            android:textSize="@dimen/dp_25"
+            android:textColor="@color/blue"
+            android:background="@drawable/rect_bg"
+            android:layout_marginStart="@dimen/dp_14"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/box6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_weight="1"
+            android:text="Sports"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/dp_14"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:textSize="@dimen/dp_25"
+
+            android:background="@drawable/editext_rect_bg"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row4"
+        android:layout_below="@+id/row3"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/box7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Technology"
+            android:textSize="@dimen/dp_25"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/dp_14"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:background="@drawable/editext_rect_bg"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/box8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_weight="1"
+            android:text="Pronunciation"
+            android:textColor="@color/blue"
+            android:layout_marginStart="@dimen/dp_14"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:textSize="@dimen/dp_25"
+            android:background="@drawable/rect_bg"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/row5"
+        android:layout_below="@+id/row4"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/box9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Grammer"
+            android:textSize="@dimen/dp_25"
+            android:textColor="@color/blue"
+            android:layout_marginStart="@dimen/dp_14"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:background="@drawable/rect_bg"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/box10"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_weight="1"
+            android:text="Health"
+            android:textColor="@color/blue"
+            android:layout_marginStart="@dimen/dp_14"
+            android:layout_marginEnd="@dimen/dp_14"
+            android:textSize="@dimen/dp_25"
+            android:background="@drawable/rect_bg"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rect_big_bg"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textColor="@color/blue"
+        android:background="@drawable/rect_continue_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+
+        />
+
+</RelativeLayout>

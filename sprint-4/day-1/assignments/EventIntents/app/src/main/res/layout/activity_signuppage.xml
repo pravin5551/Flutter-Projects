@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#F4F7F3"
+    android:layout_centerInParent="true"
+    tools:context=".Signuppage">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Welcome !"
+        android:textStyle="bold"
+        android:layout_marginStart="25dp"
+        android:textSize="40dp"
+
+        />
+    <TextView
+        android:id="@+id/app"
+        android:layout_below="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get the best from our App"
+        android:layout_marginStart="25dp"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/app"
+        android:id="@+id/mailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email address"
+        android:padding="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/rect_inetnts_bg"
+
+        />
+    <EditText
+        android:layout_below="@+id/mailid"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="Enter Password"
+        android:padding="20dp"
+        android:background="@drawable/rect_inetnts_bg"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mBtn"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/customeTextView"
+        android:layout_marginTop="@dimen/dp_50"
+        android:text="@string/text_create_account"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_24"
+        android:textStyle="bold"/>
+
+    <TextView
+        style="@style/customeTextView"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_marginBottom="@dimen/dp_25"
+        android:text="@string/text_step_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        />
+    <EditText
+        style="@style/CreatAcoountEdittextStyle"
+        android:hint="@string/hint_email"/>
+    <EditText
+        style="@style/CreatAcoountEdittextStyle"
+        android:hint="@string/hint_password"/>
+    <EditText
+       style="@style/CreatAcoountEdittextStyle"
+        android:hint="@string/hint_confirm_password"
+        />
+    <Button
+        style="@style/customeTextView"
+        android:background="@color/green"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/dp_25"
+
+
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/person"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_baseline_person_24"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_50"
+        />
+
+    <TextView
+        android:id="@+id/employee"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Employee"
+        android:layout_below="@+id/person"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp_18"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_below="@+id/employee"
+        style="@style/customeTextView"
+        android:text="Title :"
+                />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        style="@style/customeTextView"
+        android:text="First Name :"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_below="@+id/text2"
+        style="@style/customeTextView"
+        android:text="Last Name :"
+        />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_below="@+id/text3"
+        style="@style/customeTextView"
+        android:text="Work Email :"
+        />
+
+    <Button
+        android:id="@+id/btntitle"
+        style="@style/customCentreText"
+        android:layout_marginEnd="@dimen/dp_25"
+        android:layout_below="@+id/employee"
+        android:background="@color/grey"
+        android:layout_centerHorizontal="true"
+        android:text="Select Option"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/dp_25"
+        />
+    <EditText
+        android:id="@+id/nametext"
+        android:layout_below="@id/btntitle"
+        style="@style/customCentreText"
+        android:hint="@string/first_name"
+        />
+    <EditText
+        android:id="@+id/lastnametext"
+        android:layout_below="@id/nametext"
+        style="@style/customCentreText"
+        android:hint="@string/last_name"
+        />
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_below="@id/lastnametext"
+        style="@style/customCentreText"
+        android:hint="@string/email"
+        />
+
+
+</RelativeLayout>

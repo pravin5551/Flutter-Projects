@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/rect2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/signup"
+        android:textSize="@dimen/sp_30"
+        android:gravity="center"
+        android:background="@drawable/rect1"
+        android:padding="@dimen/dp_10"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:drawableStartCompat="@drawable/ic_bx_bx_arrow_back" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_40"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:drawableStart="@drawable/ic_person"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="@string/enter_the_user_name"
+        android:padding="@dimen/dp_10"
+        android:background="@drawable/rect2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_40"
+        android:background="@drawable/rect2"
+        android:hint="@string/enter_email_address"
+        android:drawableStart="@drawable/ic_emailsymbol"
+        android:padding="@dimen/dp_10"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+         />
+    <EditText
+        android:id="@+id/PhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_40"
+        android:background="@drawable/rect2"
+        android:hint="@string/enter_phone_number"
+        android:padding="@dimen/dp_10"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_40"
+        android:background="@drawable/rect2"
+        android:hint="@string/enter_password"
+        android:padding="@dimen/dp_10"
+        android:drawableStart="@drawable/ic_carbon_password"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneNumber"
+        tools:layout_editor_absoluteX="64dp" />
+    <EditText
+        android:id="@+id/confirmpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_40"
+        android:background="@drawable/rect2"
+        android:drawableStart="@drawable/ic_carbon_password"
+        android:hint="@string/confirm_password"
+        android:padding="@dimen/dp_10"
+        app:layout_constraintTop_toBottomOf="@+id/Password"
+        />
+
+    <Button
+        android:id="@+id/Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:background="@drawable/rect1"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+         />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KoreaTicket</string>
+    <string name="fly_to_seoul">Fly to Seoul</string>
+    <string name="seoul_korea">Seoul, Korea</string>
+</resources>

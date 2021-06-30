@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SignUpPage</string>
+    <string name="signup">SignUp</string>
+    <string name="enter_the_email_address">Enter The Email Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_phone_number">Enter Phone number</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_the_user_name">Enter The User Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="home_page">Home Page</string>
+</resources>

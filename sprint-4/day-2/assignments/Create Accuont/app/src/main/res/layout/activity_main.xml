@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:text="Create Account"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="@dimen/dp_25"
+        android:drawableStart="@drawable/ic_previussymbolflight"
+        android:background="#0583EA"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit2"
+        android:layout_below="@id/account"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter email adress"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit3"
+        android:layout_below="@id/edit2"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_centerHorizontal="true"
+        android:hint="Pravin pawar"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit4"
+        android:layout_below="@id/edit3"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USE PHONE NUMBER"
+        android:textColor="#0583EA"
+        android:id="@+id/num"
+        android:layout_below="@+id/edit4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_14"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="@dimen/dp_50"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:id="@+id/btn1"
+        android:layout_below="@+id/num"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/signup"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_ion_logo_facebook"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Or"
+        android:id="@+id/or"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_below="@+id/btn1"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="@dimen/dp_50"
+        android:text="Continue with facebook"
+        android:textAllCaps="false"
+        android:id="@+id/btn2"
+        android:padding="10dp"
+        android:layout_below="@+id/or"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_14"
+        android:background="@drawable/rect_bg"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Continue with Google"
+        android:textAllCaps="true"
+        android:id="@+id/btn3"
+        android:padding="10dp"
+        android:layout_below="@+id/btn2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rect_google_bg"
+        android:layout_marginTop="@dimen/dp_14"
+        android:drawableStart="@drawable/ic_flat_color_icons_google"
+
+        />
+
+</RelativeLayout>

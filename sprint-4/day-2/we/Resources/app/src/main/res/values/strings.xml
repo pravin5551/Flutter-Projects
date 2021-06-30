@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">resources</string>
+    <string name="text_create_account">Create Account</string>
+    <string name="text_step_1">This is step 1</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+</resources>

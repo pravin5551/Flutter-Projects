@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2F2F2F"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Spartans"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:id="@+id/tvspartans"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Layouts"
+        android:layout_below="@+id/tvspartans"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvWlcm"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:id="@+id/circle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvWlcm"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="156dp"
+        android:background="@drawable/circle_bg" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:text="Name :"
+        android:textColor="#FF0000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="150dp"
+        android:text="Pravin Pawar"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/tvname"
+        android:text="Age    :"
+        android:id="@+id/tvMyage"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvMyAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMyname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="260dp"
+        android:text="21"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00FF00"
+        android:padding="22dp"
+        android:text="NEXT"
+        android:id="@+id/btnnext"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+         />
+    <View
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/view1"
+        android:layout_above="@+id/btnnext"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rectangle_grey"
+        />
+    <View
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:id="@+id/view2"
+        android:layout_above="@+id/view1"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rectangle_grey"
+        />
+    <View
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/view3"
+        android:layout_above="@+id/view2"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rectangle_grey"
+        />
+
+</RelativeLayout>

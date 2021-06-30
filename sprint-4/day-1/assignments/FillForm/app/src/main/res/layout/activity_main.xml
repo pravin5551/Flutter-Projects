@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/buyer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Buyer"
+        android:padding="12dp"
+        android:textSize="25dp"
+        android:background="#6666FF"
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+         />
+    <Button
+        android:id="@+id/start"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:drawableEnd="@drawable/ic_baseline_check_24"
+        />
+    <ImageView
+        android:layout_below="@+id/buyer"
+        android:id="@+id/rect"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rect_bg"
+        />
+
+    <TextView
+        android:id="@+id/org"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orginization Name"
+        android:layout_below="@+id/buyer"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/org"
+
+        />
+    <TextView
+        android:id="@+id/person"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="  Customer name"
+        android:textSize="15dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:layout_below="@+id/rect"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rect"
+        android:layout_marginTop="40dp"
+
+        />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="  Mobile number"
+        android:textSize="15dp"
+        android:drawableStart="@drawable/ic_baseline_local_phone_24"
+        android:layout_below="@+id/person"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/third"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/person"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/gmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="  Email"
+        android:textSize="15dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:layout_below="@+id/person"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/fourth"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="40dp"
+
+        />
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="  Address"
+        android:textSize="15dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/fifth"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="105dp"
+
+        />
+    <TextView
+        android:id="@+id/manufacturer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="  Manufacturer"
+        android:textSize="15dp"
+        android:drawableStart="@drawable/ic_baseline_smartphone_24"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/sixth"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:id="@+id/textid"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="  Text ID"
+        android:textSize="15dp"
+        android:drawableStart="@drawable/ic_baseline_textsms_24"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/seventh"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="80dp"
+
+        />
+    <TextView
+        android:id="@+id/compay"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="  Company ID"
+        android:textSize="15dp"
+        android:drawableStart="@drawable/ic_baseline_textsms_24"
+        android:layout_below="@+id/manufacturer"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/eigth"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/manufacturer"
+        android:layout_marginTop="80dp"
+
+        />
+
+</RelativeLayout>
