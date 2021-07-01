@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Instagram Page",
+          title: Text("Instagram",
               style: TextStyle(color: Colors.black, fontSize: 30)),
           backgroundColor: Colors.white,
         ),
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
               children: <Widget>[
                 Container(
                   child: Image.asset(
-                    'images/bg.jpg',
+                    'images/dp.jpg',
                     width: 120,
                     height: 122,
                   ),
@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
                         Row(
                           children: [
                             Text(
-                              "554",
+                              "700M",
                               style: TextStyle(fontSize: 15, color: Colors.black),
                             )
                           ],
@@ -99,21 +99,21 @@ class MyApp extends StatelessWidget {
               children: [
                 Padding(padding: EdgeInsets.only(left: 20)),
                 Padding(padding: EdgeInsets.only(top: 40)),
-                Text("Pravin Pawar"),
+                Text("Rahul Yadav"),
               ],
             ),
             Row(
               children: [
                 Padding(padding: EdgeInsets.only(left: 20)),
                 Padding(padding: EdgeInsets.only(top: 40)),
-                Text("Android Developer"),
+                Text("Flutter developer hu mai"),
               ],
             ),
             Row(
               children: [
                 Padding(padding: EdgeInsets.only(left: 20)),
                 Padding(padding: EdgeInsets.only(top: 40)),
-                Text("Best is yet to come"),
+                Text("Mere kuch tashvire hai niche"),
               ],
             ),
             Divider(
@@ -126,20 +126,20 @@ class MyApp extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Image.asset(
-                        'images/bg.jpg',
+                        'images/dp.jpg',
                         width: 150,
                         height: 150,
                       ),
                     ),
                     Expanded(
                         child: Image.asset(
-                          'images/bg.jpg',
+                          'images/dp.jpg',
                           width: 150,
                           height: 150,
                         )),
                     Expanded(
                         child: Image.asset(
-                          'images/bg.jpg',
+                          'images/dp.jpg',
                           width: 150,
                           height: 150,
                         )),
@@ -149,20 +149,20 @@ class MyApp extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Image.asset(
-                        'images/bg.jpg',
+                        'images/dp.jpg',
                         width: 150,
                         height: 150,
                       ),
                     ),
                     Expanded(
                         child: Image.asset(
-                          'images/bg.jpg',
+                          'images/dp.jpg',
                           width: 150,
                           height: 150,
                         )),
                     Expanded(
                         child: Image.asset(
-                          'images/bg.jpg',
+                          'images/dp.jpg',
                           width: 150,
                           height: 150,
                         )),
@@ -172,20 +172,20 @@ class MyApp extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Image.asset(
-                        'images/bg.jpg',
+                        'images/dp.jpg',
                         width: 150,
                         height: 150,
                       ),
                     ),
                     Expanded(
                         child: Image.asset(
-                          'images/bg.jpg',
+                          'images/dp.jpg',
                           width: 150,
                           height: 150,
                         )),
                     Expanded(
                         child: Image.asset(
-                          'images/bg.jpg',
+                          'images/dp.jpg',
                           width: 150,
                           height: 150,
                         )),
