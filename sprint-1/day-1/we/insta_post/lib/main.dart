@@ -99,21 +99,21 @@ class MyApp extends StatelessWidget {
               children: [
                 Padding(padding: EdgeInsets.only(left: 20)),
                 Padding(padding: EdgeInsets.only(top: 40)),
-                Text("Rahul Yadav"),
+                Text("Pravin Pawar"),
               ],
             ),
             Row(
               children: [
                 Padding(padding: EdgeInsets.only(left: 20)),
                 Padding(padding: EdgeInsets.only(top: 40)),
-                Text("Flutter developer hu mai"),
+                Text("Android Developer"),
               ],
             ),
             Row(
               children: [
                 Padding(padding: EdgeInsets.only(left: 20)),
                 Padding(padding: EdgeInsets.only(top: 40)),
-                Text("Mere kuch tashvire hai niche"),
+                Text("Best is yet to come"),
               ],
             ),
             Divider(
