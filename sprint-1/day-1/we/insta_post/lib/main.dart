@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Instagram Page",
+          title: Text("Evaluation Screen",
               style: TextStyle(color: Colors.black, fontSize: 30)),
           backgroundColor: Colors.white,
         ),
@@ -28,92 +28,38 @@ class MyApp extends StatelessWidget {
                     height: 122,
                   ),
                 ),
+
                 Container(
                     child: Column(
                       children: <Widget>[
-                        Row(
-                          children: [
-                            Text(
-                              "56",
-                              style: TextStyle(fontSize: 15, color: Colors.black),
-                            )
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Text(
-                              "posts",
-                              style: TextStyle(fontSize: 15, color: Colors.black),
-                            )
-                          ],
-                        ),
-                      ],
-                    )),
-                Container(
-                    child: Column(
-                      children: <Widget>[
-                        Row(
-                          children: [
-                            Text(
-                              "553",
-                              style: TextStyle(fontSize: 15, color: Colors.black),
-                            )
-                          ],
-                        ),
                         Row(
                           children: [
                             Padding(padding: EdgeInsets.only(left: 20)),
-                            Text(
-                              "followers",
-                              style: TextStyle(fontSize: 15, color: Colors.black),
-                            )
+                            Padding(padding: EdgeInsets.only(top: 40)),
+                            Text("Pravin Pawar",  style: TextStyle(
+                                fontSize: 50, color: Colors.black, fontWeight: FontWeight.bold),
+                            ),
+
                           ],
                         ),
                       ],
                     )),
-                Container(
-                    child: Column(
-                      children: <Widget>[
-                        Row(
-                          children: [
-                            Text(
-                              "500",
-                              style: TextStyle(fontSize: 15, color: Colors.black),
-                            )
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Padding(padding: EdgeInsets.only(left: 20)),
-                            Text(
-                              "following",
-                              style: TextStyle(fontSize: 15, color: Colors.black),
-                            )
-                          ],
-                        ),
-                      ],
-                    )),
+
+              ],
+            ),
+
+            Row(
+              children: [
+                Padding(padding: EdgeInsets.only(left: 20)),
+                Padding(padding: EdgeInsets.only(top: 40)),
+                Text("7757886309"),
               ],
             ),
             Row(
               children: [
                 Padding(padding: EdgeInsets.only(left: 20)),
                 Padding(padding: EdgeInsets.only(top: 40)),
-                Text("Pravin Pawar"),
-              ],
-            ),
-            Row(
-              children: [
-                Padding(padding: EdgeInsets.only(left: 20)),
-                Padding(padding: EdgeInsets.only(top: 40)),
-                Text("Android Developer"),
-              ],
-            ),
-            Row(
-              children: [
-                Padding(padding: EdgeInsets.only(left: 20)),
-                Padding(padding: EdgeInsets.only(top: 40)),
-                Text("Best is yet to come"),
+                Text("pravinvpawar5551@gmail.com"),
               ],
             ),
             Divider(
@@ -124,47 +70,39 @@ class MyApp extends StatelessWidget {
               children: <Widget>[
                 Row(
                   children: [
-                    Expanded(
-                      child: Image.asset(
-                        'images/dp.png',
-                        width: 150,
-                        height: 150,
-                      ),
-                    ),
-                    Expanded(
-                        child: Image.asset(
-                          'images/dp.png',
-                          width: 150,
-                          height: 150,
-                        )),
-                    Expanded(
-                        child: Image.asset(
-                          'images/dp.png',
-                          width: 150,
-                          height: 150,
-                        )),
+                    Padding(padding: EdgeInsets.only(left: 100)),
+                    Padding(padding: EdgeInsets.only(top: 100)),
+                    Text("Your Fevorite",style: TextStyle(
+                        fontSize: 25, color: Colors.orange, fontWeight: FontWeight.bold), ),
                   ],
                 ),
                 Row(
                   children: [
-                    Expanded(
-                      child: Image.asset(
-                        'images/dp.png',
-                        width: 150,
-                        height: 150,
-                      ),
-                    ),
-                    Expanded(
-                        child: Image.asset(
-                          'images/dp.png',
-                          width: 150,
-                          height: 150,
-                        )),
-
+                    Padding(padding: EdgeInsets.only(left: 100)),
+                    Padding(padding: EdgeInsets.only(top: 100)),
+                    Text("Payment",style: TextStyle(
+                        fontSize: 25, color: Colors.red, fontWeight: FontWeight.bold),),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Padding(padding: EdgeInsets.only(left: 100)),
+                    Padding(padding: EdgeInsets.only(top: 100)),
+                    Text("Tell your Friends",style: TextStyle(
+                        fontSize: 25, color: Colors.blue, fontWeight: FontWeight.bold), ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Padding(padding: EdgeInsets.only(left: 100)),
+                    Padding(padding: EdgeInsets.only(top: 100)),
+                    Text("Promotions",style: TextStyle(
+                        fontSize: 25, color: Colors.green, fontWeight: FontWeight.bold),),
                   ],
                 ),
               ],
-            )
+            ),
+
           ],
         ),
       ),
