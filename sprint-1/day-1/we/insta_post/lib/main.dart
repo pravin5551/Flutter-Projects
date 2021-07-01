@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Instagram",
+          title: Text("Instagram Page",
               style: TextStyle(color: Colors.black, fontSize: 30)),
           backgroundColor: Colors.white,
         ),
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
               children: <Widget>[
                 Container(
                   child: Image.asset(
-                    'images/dp.jpg',
+                    'images/dp.png',
                     width: 120,
                     height: 122,
                   ),
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                         Row(
                           children: [
                             Text(
-                              "102",
+                              "56",
                               style: TextStyle(fontSize: 15, color: Colors.black),
                             )
                           ],
@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
                         Row(
                           children: [
                             Text(
-                              "700M",
+                              "553",
                               style: TextStyle(fontSize: 15, color: Colors.black),
                             )
                           ],
@@ -77,7 +77,7 @@ class MyApp extends StatelessWidget {
                         Row(
                           children: [
                             Text(
-                              "0",
+                              "500",
                               style: TextStyle(fontSize: 15, color: Colors.black),
                             )
                           ],
@@ -126,20 +126,20 @@ class MyApp extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Image.asset(
-                        'images/dp.jpg',
+                        'images/dp.png',
                         width: 150,
                         height: 150,
                       ),
                     ),
                     Expanded(
                         child: Image.asset(
-                          'images/dp.jpg',
+                          'images/dp.png',
                           width: 150,
                           height: 150,
                         )),
                     Expanded(
                         child: Image.asset(
-                          'images/dp.jpg',
+                          'images/dp.png',
                           width: 150,
                           height: 150,
                         )),
@@ -149,46 +149,18 @@ class MyApp extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Image.asset(
-                        'images/dp.jpg',
+                        'images/dp.png',
                         width: 150,
                         height: 150,
                       ),
                     ),
                     Expanded(
                         child: Image.asset(
-                          'images/dp.jpg',
+                          'images/dp.png',
                           width: 150,
                           height: 150,
                         )),
-                    Expanded(
-                        child: Image.asset(
-                          'images/dp.jpg',
-                          width: 150,
-                          height: 150,
-                        )),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Expanded(
-                      child: Image.asset(
-                        'images/dp.jpg',
-                        width: 150,
-                        height: 150,
-                      ),
-                    ),
-                    Expanded(
-                        child: Image.asset(
-                          'images/dp.jpg',
-                          width: 150,
-                          height: 150,
-                        )),
-                    Expanded(
-                        child: Image.asset(
-                          'images/dp.jpg',
-                          width: 150,
-                          height: 150,
-                        )),
+
                   ],
                 ),
               ],
