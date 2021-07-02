@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_simple_calculator/flutter_simple_calculator.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,214 +10,70 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Column(
-          children: <Widget>[
-            Row(
-              children: <Widget>[
-                Expanded(
-                    child: Card(
-                  color: Colors.black,
-                  margin: EdgeInsets.all(20),
-                  child: Text("308 X 42",
-                      style: TextStyle(color: Colors.white, fontSize: 30)),
-                )),
-              ],
-            ),
-            Row(
-              children: <Widget>[
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("12, 936",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-              ],
-            ),
-            Row(
-              children: <Widget>[
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("AC",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("+/",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("%",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("#",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-              ],
-            ),
-            Row(
-              children: <Widget>[
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("7",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("8",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("9",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("X",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-              ],
-            ),
-            Row(
-              children: <Widget>[
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("4",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("5",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("6",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("-",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-              ],
-            ),
-            Row(
-              children: <Widget>[
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("1",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("2",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("3",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("+",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-              ],
-            ),
-            Row(
-              children: <Widget>[
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("^",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("0",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text(".",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-                Expanded(
-                  child: Card(
-                    margin: EdgeInsets.all(20),
-                    color: Colors.black,
-                    child: Text("=",
-                        style: TextStyle(color: Colors.white, fontSize: 30)),
-                  ),
-                ),
-              ],
-            ),
-          ],
+        appBar: AppBar(
+          title: Text('Calculator'),
+        ),
+        body: Padding(
+          padding: const EdgeInsets.all(18.0),
+          child: SizedBox(
+            width: double.infinity,
+            child: CalcButton(),
+          ),
         ),
       ),
+    );
+  }
+}
+
+class CalcButton extends StatefulWidget {
+  @override
+  _CalcButtonState createState() => _CalcButtonState();
+}
+
+class _CalcButtonState extends State<CalcButton> {
+  double _currentValue = 0;
+  @override
+  Widget build(BuildContext context) {
+    var calc = SimpleCalculator(
+      value: _currentValue,
+      hideExpression: false,
+      hideSurroundingBorder: true,
+      onChanged: (key, value, expression) {
+        setState(() {
+          _currentValue = value;
+        });
+        print("$key\t$value\t$expression");
+      },
+      onTappedDisplay: (value, details) {
+        print("$value\t${details.globalPosition}");
+      },
+      theme: const CalculatorThemeData(
+        borderColor: Colors.black54,
+        borderWidth: 2,
+        displayColor: Colors.black,
+        expressionStyle: const TextStyle(fontSize: 25, color: Colors.white),
+        operatorColor: Colors.black87,
+        displayStyle: const TextStyle(fontSize: 80, color: Colors.white),
+        expressionColor: Colors.black87,
+        operatorStyle: const TextStyle(fontSize: 25, color: Colors.orange),
+        commandColor: Colors.black87,
+        commandStyle: const TextStyle(fontSize: 25, color: Colors.indigoAccent),
+        numColor: Colors.black87,
+        numStyle: const TextStyle(fontSize: 25, color: Colors.white),
+      ),
+    );
+    return OutlineButton(
+      child: Text(_currentValue.toString()),
+      onPressed: () {
+        showModalBottomSheet(
+            isScrollControlled: true,
+            context: context,
+            builder: (BuildContext context) {
+              return SizedBox(
+                  height: MediaQuery.of(context).size.height * 0.75,
+                  child: calc);
+            });
+      },
     );
   }
 }
