@@ -385,7 +385,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorPurple,
                           onPressed: () {
                             setState(() {
-                              _buttonColorPurple = Colors.green;
+                              _buttonColorPurple = Colors.yellow;
                             });
                           },
                         ),
@@ -397,7 +397,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorPurple,
                           onPressed: () {
                             setState(() {
-                              _buttonColorPurple = Colors.green;
+                              _buttonColorPurple = Colors.black;
                             });
                           },
                         ),
@@ -438,7 +438,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorRed,
                           onPressed: () {
                             setState(() {
-                              _buttonColorRed = Colors.green;
+                              _buttonColorRed = Colors.purple;
                             });
                           },
                         ),
@@ -486,7 +486,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorPurple,
                           onPressed: () {
                             setState(() {
-                              _buttonColorPurple = Colors.green;
+                              _buttonColorPurple = Colors.white12;
                             });
                           },
                         ),
@@ -522,7 +522,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorPurple,
                           onPressed: () {
                             setState(() {
-                              _buttonColorPurple = Colors.green;
+                              _buttonColorPurple = Colors.blue;
                             });
                           },
                         ),
@@ -534,7 +534,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorPurple,
                           onPressed: () {
                             setState(() {
-                              _buttonColorPurple = Colors.green;
+                              _buttonColorPurple = Colors.redAccent;
                             });
                           },
                         )
@@ -587,6 +587,1002 @@ class _HomeState extends State<Home> {
                           onPressed: () {
                             setState(() {
                               _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.indigo;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        )
+                      ],
+                    ),
+
+                    Divider(
+                      height: 10,
+                      color: Colors.black,
+                    ),
+                    Row(
+                      children: [
+                        RaisedButton(
+                          color: _buttonColorBlue,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorBlue = Colors.indigo;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorRed,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorRed = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.indigo;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.indigo;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.deepOrange;
+                            });
+                          },
+                        )
+                      ],
+                    ),
+                    Divider(
+                      height: 10,
+                      color: Colors.black,
+                    ),
+                    Row(
+                      children: [
+                        RaisedButton(
+                          color: _buttonColorBlue,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorBlue = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorRed,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorRed = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        )
+                      ],
+                    ),
+
+                    Divider(
+                      height: 10,
+                      color: Colors.black,
+                    ),
+                    Row(
+                      children: [
+                        RaisedButton(
+                          color: _buttonColorBlue,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorBlue = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorRed,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorRed = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        )
+                      ],
+                    ),
+                    Divider(
+                      height: 10,
+                      color: Colors.black,
+                    ),
+                    Row(
+                      children: [
+                        RaisedButton(
+                          color: _buttonColorBlue,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorBlue = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorRed,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorRed = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.deepOrange;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        )
+                      ],
+                    ),
+
+                    Divider(
+                      height: 10,
+                      color: Colors.black,
+                    ),
+                    Row(
+                      children: [
+                        RaisedButton(
+                          color: _buttonColorBlue,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorBlue = Colors.blueGrey;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorRed,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorRed = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.blueGrey;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.blueGrey;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.blueGrey;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.blueGrey;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        )
+                      ],
+                    ),
+                    Divider(
+                      height: 10,
+                      color: Colors.black,
+                    ),
+                    Row(
+                      children: [
+                        RaisedButton(
+                          color: _buttonColorBlue,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorBlue = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorRed,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorRed = Colors.blueGrey;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.blueGrey;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        )
+                      ],
+                    ),
+
+                    Divider(
+                      height: 10,
+                      color: Colors.black,
+                    ),
+                    Row(
+                      children: [
+                        RaisedButton(
+                          color: _buttonColorBlue,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorBlue = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorRed,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorRed = Colors.blueGrey;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.teal;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.teal;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.teal;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        )
+                      ],
+                    ),
+                    Divider(
+                      height: 10,
+                      color: Colors.black,
+                    ),
+                    Row(
+                      children: [
+                        RaisedButton(
+                          color: _buttonColorBlue,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorBlue = Colors.teal;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorRed,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorRed = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.green;
+                            });
+                          },
+                        ),
+                        Divider(
+                          height: 10,
+                          color: Colors.black,
+                        ),
+                        RaisedButton(
+                          color: _buttonColorPurple,
+                          onPressed: () {
+                            setState(() {
+                              _buttonColorPurple = Colors.teal;
                             });
                           },
                         ),
@@ -675,7 +1671,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorBlue,
                           onPressed: () {
                             setState(() {
-                              _buttonColorBlue = Colors.green;
+                              _buttonColorBlue = Colors.teal;
                             });
                           },
                         ),
@@ -711,926 +1707,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorPurple,
                           onPressed: () {
                             setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        )
-                      ],
-                    ),
-                    Divider(
-                      height: 10,
-                      color: Colors.black,
-                    ),
-                    Row(
-                      children: [
-                        RaisedButton(
-                          color: _buttonColorBlue,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorBlue = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorRed,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorRed = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        )
-                      ],
-                    ),
-
-                    Divider(
-                      height: 10,
-                      color: Colors.black,
-                    ),
-                    Row(
-                      children: [
-                        RaisedButton(
-                          color: _buttonColorBlue,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorBlue = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorRed,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorRed = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        )
-                      ],
-                    ),
-                    Divider(
-                      height: 10,
-                      color: Colors.black,
-                    ),
-                    Row(
-                      children: [
-                        RaisedButton(
-                          color: _buttonColorBlue,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorBlue = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorRed,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorRed = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        )
-                      ],
-                    ),
-
-                    Divider(
-                      height: 10,
-                      color: Colors.black,
-                    ),
-                    Row(
-                      children: [
-                        RaisedButton(
-                          color: _buttonColorBlue,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorBlue = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorRed,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorRed = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        )
-                      ],
-                    ),
-                    Divider(
-                      height: 10,
-                      color: Colors.black,
-                    ),
-                    Row(
-                      children: [
-                        RaisedButton(
-                          color: _buttonColorBlue,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorBlue = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorRed,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorRed = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        )
-                      ],
-                    ),
-
-                    Divider(
-                      height: 10,
-                      color: Colors.black,
-                    ),
-                    Row(
-                      children: [
-                        RaisedButton(
-                          color: _buttonColorBlue,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorBlue = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorRed,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorRed = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        )
-                      ],
-                    ),
-                    Divider(
-                      height: 10,
-                      color: Colors.black,
-                    ),
-                    Row(
-                      children: [
-                        RaisedButton(
-                          color: _buttonColorBlue,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorBlue = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorRed,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorRed = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
+                              _buttonColorPurple = Colors.teal;
                             });
                           },
                         ),
@@ -1657,83 +1734,6 @@ class _HomeState extends State<Home> {
                               _buttonColorPurple = Colors.green;
                             });
                           },
-                        )
-                      ],
-                    ),
-
-                    Divider(
-                      height: 10,
-                      color: Colors.black,
-                    ),
-                    Row(
-                      children: [
-                        RaisedButton(
-                          color: _buttonColorBlue,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorBlue = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorRed,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorRed = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
-                        ),
-                        Divider(
-                          height: 10,
-                          color: Colors.black,
-                        ),
-                        RaisedButton(
-                          color: _buttonColorPurple,
-                          onPressed: () {
-                            setState(() {
-                              _buttonColorPurple = Colors.green;
-                            });
-                          },
                         ),
                         Divider(
                           height: 10,
@@ -1755,7 +1755,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorPurple,
                           onPressed: () {
                             setState(() {
-                              _buttonColorPurple = Colors.green;
+                              _buttonColorPurple = Colors.teal;
                             });
                           },
                         ),
@@ -1767,7 +1767,7 @@ class _HomeState extends State<Home> {
                           color: _buttonColorPurple,
                           onPressed: () {
                             setState(() {
-                              _buttonColorPurple = Colors.green;
+                              _buttonColorPurple = Colors.teal;
                             });
                           },
                         ),
