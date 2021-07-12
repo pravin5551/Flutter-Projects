@@ -21,11 +21,13 @@ class NetworkCall extends StatefulWidget {
 class _NetworkCallState extends State<NetworkCall> {
   String value ="20.0";
   // int padding =20;
+
   String dogImageURL = 'https://images.dog.ceo/breeds/schnauzer-miniature/n02097047_731.jpg';
 
   double padding = 0.0;
 
   void getRandomDog() async{
+
     var url = Uri.parse('https://dog.ceo/api/breeds/image/random');
    http.Response response= await http.get(url);
    if(response.statusCode ==200){
