@@ -72,7 +72,7 @@ class ResultSceern extends StatelessWidget {
 
   Widget ContestResult() {
     String result = "";
-    if (home_ans == "Narendra  Godi" && second_ans=="Prateek Shukla" && third_ans=="1947") {
+    if (home_ans == "Narendra Godi" && second_ans=="Prateek Shukla" && third_ans=="1947") {
       result = "Wowww, You did it..... PASSED!";
     } else {
       result = result ="Oop's Better Luck Next Time :( ";

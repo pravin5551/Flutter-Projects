@@ -29,10 +29,10 @@ class ThirdScreen extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.all(58.0),
-              child: SizedBox(
+
                 child: Text("1 . 1947      " +" "
                     "2. 1949 "),
-              ),
+
             ),
             TextField(
               controller: textFieldController,

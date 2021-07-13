@@ -32,11 +32,15 @@ class HomeScreen extends StatelessWidget {
                     "2. Narendra  Godi "),
               ),
             ),
-            TextField(
-              controller: textFieldController,
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(
+                controller: textFieldController,
+                autofocus: true,
+                style: TextStyle(
+                  fontSize: 24,
+                  color: Colors.black,
+                ),
               ),
             ),
             Padding(
