@@ -11,6 +11,10 @@ void main() {
         primaryColor: Colors.blue,
         backgroundColor: Colors.white,
       ),
+
+
+
+
       initialRoute: '/trips',
       routes: {
         '/': (context) => DashBoardPage(),
