@@ -21,14 +21,15 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
 
   Future apicall() async{
-    var url = "https://reqres.in/api/users/2";
-    http.Response response = await http.get(Uri.parse(url));
+    var url = Uri.parse("https://reqres.in/api/users/2");
+    http.Response response = await http.get(url);
 
     if(response.statusCode == 200){
       setState(() {
          jsonRandomPeople = convert.jsonDecode(response.body) as Map<String, dynamic>;
          print(jsonRandomPeople['data']['id']);
       });
+
     }
   }
 
