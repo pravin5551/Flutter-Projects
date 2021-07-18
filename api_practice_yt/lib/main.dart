@@ -1,3 +1,4 @@
+import 'package:api_practice_yt/fullapi.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -6,7 +7,7 @@ import 'dart:convert' as convert;
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: MyApp(),
+    home: ListApi(),
   ));
 }
 
