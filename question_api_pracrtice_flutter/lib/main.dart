@@ -32,6 +32,7 @@ class _ApiPracticeState extends State<ApiPractice> {
         image = jsonData['message'];
        }
       );
+
     }
   }
 
