@@ -29,7 +29,8 @@ class _ListApiState extends State<ListApi> {
         mapResponse = json.decode(response.body);
         print(mapResponse!['data']);
         listResponse = mapResponse!['data'];
-      });
+       },
+      );
     }
   }
 
@@ -48,6 +49,10 @@ class _ListApiState extends State<ListApi> {
           child: Column(
             children: [
               Image.network(listResponse![index]['avatar']),
+              SizedBox(
+                width: 20,
+                height: 20,
+              ),
               Text(listResponse![index]['last_name'])
             ],
           ),
