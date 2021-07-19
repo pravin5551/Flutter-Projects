@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
 
   List<Widget> stateList = [];
 
-  void initialRequest() async {
+  Future initialRequest() async {
     print("Loading Data");
 
     var url = Uri.parse(MyConstants.HOST_URL);
@@ -27,11 +27,10 @@ class _HomePageState extends State<HomePage> {
 
       stateList.clear();
 
-      jsondData.forEach((element) {
-        var model = StatesInfo.fromJson(element);
+      jsondData.forEach((i) {
+        var model = StatesInfo.fromJson(i);
         print(model.state);
         setState(() {
-
           stateList.add(stateCard(model.state, model.name));
         });
       });
@@ -41,11 +40,9 @@ class _HomePageState extends State<HomePage> {
   Widget stateCard(var stateCode, var stateName) {
     print('Showing State $stateName');
 
-    return Expanded(
-      child: Row(
+    return Row(
         children: [
-          Expanded(
-            child: Container(
+          Container(
               margin: EdgeInsets.all(10),
               padding: EdgeInsets.all(5),
               child: ElevatedButton(
@@ -67,10 +64,11 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-          ),
+
         ],
-      ),
     );
+
+
   }
 
   @override
@@ -114,10 +112,6 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       body: Container(
-        width: double.infinity,
-        height: double.infinity,
-        margin: EdgeInsets.all(5),
-        padding: EdgeInsets.all(2),
         child: ListView(
           children: stateList,
         ),

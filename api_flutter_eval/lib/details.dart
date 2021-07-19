@@ -9,7 +9,12 @@ class StateDetails extends StatefulWidget {
   _StateDetailsState createState() => _StateDetailsState();
 }
 
-StateStatistics stDetails = StateStatistics(0, 0, 0, '');
+// StateStatistics stDetails = StateStatistics(0, 0, 0, '');
+int? positive;
+int? negative;
+int? death;
+String? dateChecked;
+
 String loadingStatus = ' Details Loading ...';
 
 class _StateDetailsState extends State<StateDetails> {
@@ -29,10 +34,10 @@ class _StateDetailsState extends State<StateDetails> {
       var jsondData = convert.jsonDecode(response.body) as Map<String, dynamic>;
 
       setState(() {
-        stDetails.positive = jsondData["positive"];
-        stDetails.negative = jsondData["negative"];
-        stDetails.death = jsondData["death"];
-        stDetails.dateChecked = jsondData["dateChecked"];
+        positive = jsondData["positive"];
+        negative = jsondData["negative"];
+        death = jsondData["death"];
+        dateChecked = jsondData["dateChecked"];
 
         loadingStatus = 'State Details';
 
@@ -51,10 +56,10 @@ class _StateDetailsState extends State<StateDetails> {
   @override
   void dispose() {
     super.dispose();
-    stDetails.positive = 0;
-    stDetails.negative = 0;
-    stDetails.death = 0;
-    stDetails.dateChecked = '';
+   positive = 0;
+   negative = 0;
+   death = 0;
+   dateChecked = '';
     loadingStatus = ' Details Loading ...';
   }
 
@@ -119,7 +124,7 @@ class _StateDetailsState extends State<StateDetails> {
                   shadowColor: Colors.grey,
                   child: Center(
                     child: Text(
-                      '+ Ve :  ${stDetails.positive} | - Ve :  ${stDetails.negative}  ',
+                      '+ Ve :  ${positive} | - Ve :  ${negative}  ',
                       style: TextStyle(color: Colors.green, fontSize: 20),
                     ),
                   ),
@@ -136,7 +141,7 @@ class _StateDetailsState extends State<StateDetails> {
                   shadowColor: Colors.grey,
                   child: Center(
                     child: Text(
-                      'Total Deaths : ${stDetails.death} ',
+                      'Total Deaths : ${death} ',
                       style: TextStyle(color: Colors.red, fontSize: 20),
                     ),
                   ),
@@ -153,7 +158,7 @@ class _StateDetailsState extends State<StateDetails> {
                   shadowColor: Colors.grey,
                   child: Center(
                     child: Text(
-                      'Date :  ${stDetails.dateChecked} ',
+                      'Date :  ${dateChecked} ',
                       style: TextStyle(color: Colors.green, fontSize: 20),
                     ),
                   ),
