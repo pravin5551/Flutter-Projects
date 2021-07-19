@@ -31,6 +31,7 @@ class _HomePageState extends State<HomePage> {
         var model = StatesInfo.fromJson(element);
         print(model.state);
         setState(() {
+
           stateList.add(stateCard(model.state, model.name));
         });
       });
