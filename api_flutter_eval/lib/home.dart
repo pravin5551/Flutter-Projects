@@ -12,8 +12,8 @@ class HomePage extends StatefulWidget {
 
 
 class _HomePageState extends State<HomePage> {
-
-
+  late var statecodeLol ;
+  late var stateNameLol ;
   List<Widget> stateList = [];
 
   Future initialRequest() async {
@@ -29,9 +29,11 @@ class _HomePageState extends State<HomePage> {
 
       jsondData.forEach((i) {
         var model = StatesInfo.fromJson(i);
-        print(model.state);
+        statecodeLol = model.state;
+        stateNameLol = model.name;
+        print(statecodeLol);
         setState(() {
-          stateList.add(stateCard(model.state, model.name));
+          stateList.add(stateCard(statecodeLol, stateNameLol));
         });
       });
     }
@@ -79,7 +81,7 @@ class _HomePageState extends State<HomePage> {
       initialRequest();
     });
 
-    stateList.add(stateCard("Loading", "Please Wait"));
+    // stateList.add(stateCard("Loading", "Please Wait"));
   }
 
   @override

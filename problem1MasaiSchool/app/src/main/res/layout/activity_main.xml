@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF007F"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masai School"
+        android:layout_centerHorizontal="true"
+        android:textSize="36dp"
+        android:textStyle="italic"
+        android:layout_marginVertical="100dp"
+        android:textColor="#FFFFFF"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginVertical="250dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginHorizontal="25dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="280dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/email"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_emailsymbol"
+        android:layout_marginHorizontal="10dp"
+        android:hint=" masaischool@gmail.com"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/password"
+        android:layout_marginVertical="350dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginHorizontal="25dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="390dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/passwordtext"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_ri_lock_password_line"
+        android:layout_marginHorizontal="10dp"
+        android:hint="masaischool@gmail.com"
+        />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="Sign up"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="500dp"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign in"
+        android:textSize="20dp"
+        android:layout_marginVertical="560dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

@@ -13,22 +13,13 @@ class MyConstants{
 
 }
 
-class StateStatistics{
 
-  int positive;
-  int negative;
-  int death;
-  String dateChecked;
-
-  StateStatistics(this.positive,this.negative,this.death, this.dateChecked);
-
-}
-
-class IntentData{
-
-  String stateCode;
-  String stateName;
-
-  IntentData(this.stateCode,this.stateName);
-
-}
+//
+// class IntentData{
+//
+//   String stateCode;
+//   String stateName;
+//
+//   IntentData(this.stateCode,this.stateName);
+//
+// }

@@ -53,15 +53,15 @@ class _StateDetailsState extends State<StateDetails> {
 
   }
 
-  @override
-  void dispose() {
-    super.dispose();
-   positive = 0;
-   negative = 0;
-   death = 0;
-   dateChecked = '';
-    loadingStatus = ' Details Loading ...';
-  }
+  // @override
+  // void dispose() {
+  //   super.dispose();
+  //  positive = 0;
+  //  negative = 0;
+  //  death = 0;
+  //  dateChecked = '';
+  //   loadingStatus = ' Details Loading ...';
+  // }
 
   @override
   Widget build(BuildContext context) {
