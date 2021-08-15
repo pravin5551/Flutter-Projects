@@ -35,6 +35,7 @@ class _PageOneState extends State<PageOne> with SingleTickerProviderStateMixin{
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.pink.withOpacity(controller!.value),
+
       appBar: AppBar(
         title: Text('Page One'),
       ),

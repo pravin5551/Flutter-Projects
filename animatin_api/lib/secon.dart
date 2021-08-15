@@ -18,7 +18,6 @@ class _PageTwoState extends State<PageTwo> {
     return Scaffold(
 
       appBar: AppBar(
-
         title: Text('Page Two'),
 
       ),
