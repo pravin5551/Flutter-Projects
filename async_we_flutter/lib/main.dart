@@ -38,6 +38,7 @@ class _NetworkCallState extends State<NetworkCall> {
 
      setState(() {
        dogImageURL = jsonData['message'];
+
      });
    }else{
 
