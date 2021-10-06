@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Dialogue',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        primaryColor: Colors.blue
       ),
       home: MyHomePage(title: ''),
     );
