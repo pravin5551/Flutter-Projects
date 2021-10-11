@@ -40,6 +40,8 @@ class MyApp extends StatelessWidget {
                   child: Center(
                       child: Text("72 kg", style: TextStyle(fontSize: 25))),
                 ),
+                
+                //UI changes
                 Container(
                   margin: EdgeInsets.only(left: 30),
                   width: 150,
