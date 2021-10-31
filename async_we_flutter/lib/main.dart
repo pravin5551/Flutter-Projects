@@ -22,7 +22,7 @@ class NetworkCall extends StatefulWidget {
 class _NetworkCallState extends State<NetworkCall> {
   String value ="20.0";
   // int padding =20;
-
+//Image URL here
   String dogImageURL = 'https://images.dog.ceo/breeds/schnauzer-miniature/n02097047_731.jpg';
 
   double padding = 0.0;
