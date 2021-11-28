@@ -3,9 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'my_widget.dart';
-
-
-
 class PageOne extends StatefulWidget {
   const PageOne({Key? key}) : super(key: key);
 
