@@ -14,6 +14,8 @@ class Meta {
 		per_page = map["per_page"],
 		total_count = map["total_count"];
 
+	
+	//To Json conversion
 	Map<String, dynamic> toJson() {
 		final Map<String, dynamic> data = new Map<String, dynamic>();
 		data['total_pages'] = total_pages;
