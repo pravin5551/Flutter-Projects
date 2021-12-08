@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:lottie/lottie.dart';
 import 'dart:convert' as convert;
 import 'Model/constants.dart';
-
+//import android.os.Bundle;
 class StateDetails extends StatefulWidget {
   @override
   _StateDetailsState createState() => _StateDetailsState();
