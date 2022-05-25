@@ -1,3 +1,11 @@
+Problem statement 1
+Check if 2 given strings are anagrams of one another
+Eg. str1: bart, str2: brat
+returns: True
+Eg. str1: bart, str2: cart
+returns: False
+
+
 public class AnagramString {  
     static void isAnagram(String str1, String str2) {  
         String s1 = str1.replaceAll("\\s", "");  
@@ -23,7 +31,10 @@ public class AnagramString {
     }  
 }
 
-
+Problem statement 2
+Given a one-dimensional array representing a single lane with vehicles moving in either directions, write a function to determine how many pairs of vehicles are moving towards each other.
+Input: [>, <, <, >, >] Output: 2
+Input: [>, <, >, >, <] Output: 4
 
 import java.util.Scanner;
 public class Vechile {
